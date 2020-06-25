@@ -4,7 +4,7 @@
 <table id="table">
     
 <?php 
-$daan = array("voornaam"=>"Bilal","achternaam"=>"Kiloul","klas"=>"9C","Leeftijd"=>17,"Woonplaats"=>"Amsterdam");
+$bilal = array("voornaam"=>"Bilal","achternaam"=>"Kiloul","klas"=>"9C","Leeftijd"=>17,"Woonplaats"=>"Amsterdam");
 function maakRij($key,$value){
     
     echo "<tr> <td> $key </td> <td> $value </td> </tr>" ;
@@ -26,7 +26,7 @@ td,th{
 </style>";
 echo    "<body style='color:$textkleur;background-color:$bgkleur'>" ;  
  
-foreach($daan as $key => $value){
+foreach($bilal as $key => $value){
  maakRij($key,$value);
 }
 
