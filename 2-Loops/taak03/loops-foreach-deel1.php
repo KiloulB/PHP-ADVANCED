@@ -1,9 +1,9 @@
-<ul>
 <?php
-$dagen = array("maandag", "dinsadg", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");
 
-foreach($dagen as $value) {
-  echo "<li>" . "$value" . "</li>";
-}
+  $dagen = array("maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");
+
+  foreach ($dagen as $days){
+    echo "Het is vandaag ". $days. "<br>";
+  }
+
 ?>
-</ul>
